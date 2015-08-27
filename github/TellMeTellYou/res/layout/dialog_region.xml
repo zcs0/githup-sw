@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal" >
+
+    <!-- <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=";asjd;dfsdfsdfdsfalskjfl"/> -->
+
+    <com.wheel.wheelView.WheelView
+        android:id="@+id/wv_province"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:minWidth="55dp" />
+
+    <com.wheel.wheelView.WheelView
+        android:id="@+id/wv_city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:minWidth="55dp" />
+
+    <com.wheel.wheelView.WheelView
+        android:id="@+id/wv_area"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:minWidth="55dp" />
+
+</LinearLayout>

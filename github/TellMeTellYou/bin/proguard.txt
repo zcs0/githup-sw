@@ -1,0 +1,11 @@
+# view res/layout/activity_main.xml #generated:7
+-keep class com.amap.api.maps.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.tell.MainActivity { <init>(...); }
+
+# view res/layout/dialog_region.xml #generated:10
+# view res/layout/dialog_region.xml #generated:19
+# view res/layout/dialog_region.xml #generated:27
+-keep class com.wheel.wheelView.WheelView { <init>(...); }
+
